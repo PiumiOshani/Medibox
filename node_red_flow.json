@@ -1,0 +1,54 @@
+[
+    {
+        "id": "4dd355987522f638",
+        "type": "mqtt in",
+        "z": "4db534817ef3de14",
+        "name": "",
+        "topic": "MOTOR_PARAM_OFFSET_DEFAULT",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "fc1c3df0318fc530",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 230,
+        "y": 720,
+        "wires": [
+            [
+                "6a0438b4ea67688f"
+            ]
+        ]
+    },
+    {
+        "id": "fc1c3df0318fc530",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "http://broker.hivemq.com",
+        "port": 1883,
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": 4,
+        "keepalive": 60,
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    }
+]
