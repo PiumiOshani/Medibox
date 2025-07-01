@@ -74,7 +74,7 @@ Includes:
 
 ### 📊 Node-RED Dashboard
 
-![Node-RED Dashboard Screenshot](screenshots/dashboard.png)
+![Node-RED Dashboard Screenshot](screenshots/node-red.png)
 
 ---
 [![Wokwi Simulation](https://img.shields.io/badge/Simulated%20on-Wokwi-orange?logo=wokwi)](https://wokwi.com/)
